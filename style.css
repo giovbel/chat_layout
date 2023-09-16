@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/background.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    overflow-x: hidden;
+}
+
+.card-container{
+    align-items: center;
+    max-width: 800vw; /* Define a largura desejada */
+    max-height: 80vh; /* Define a altura máxima desejada */
+    overflow-y: hidden;
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+     flex-direction: column;
+     border-radius: 20px;
+     overflow-x: hidden;
+     overflow-y: scroll;
+     background-image: url(./img/fundoCard.jpg);
+}
+
+.card {
+    background: linear-gradient(180deg, #6792F9, #FFF, #fff);
+    width: 520px;
+    height: 17vh;
+    border-radius: 7px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    border: 1px solid #000;
+    position: relative;
+    background-color: white;
+}
+
+.card p {
+    font-size: 14px;
+    margin-top: 15px;
+    flex: 1;
+}
+
+.card .imagem {
+    width: 80px; /* Largura desejada para todas as imagens */
+    height: 80px; /* Altura desejada para todas as imagens */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre a área definida */
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.imagem img{
+    margin-left: 15px;
+}
+
+.time {
+    position: absolute;
+    top: 12px; 
+    right: 62px; 
+    font-size: 12px; 
+    color: rgb(59, 59, 59); 
+    font-weight: bold;
+}
+
+h3 {
+    position: relative;
+    top: 1px;
+    margin: 0;
+}
+
+.notification {
+    width: 2vw;
+    height: 4vh;
+    background-color: #A7E58C;
+    background: linear-gradient(180deg, #E7F8E0, #8BDD68);
+    color: #000;
+    text-align: center;
+    align-items: center;
+    line-height: 4.5vh;
+    border-radius: 20%;
+    font-size: 1vw;
+    position: absolute;
+    top: 12px;
+    left: 45%;
+    font-weight: bold;
+}
+
+
+.contact{
+    display: flex;
+    width: 120px;
+    background-color: #f8fa61;
+    font-size: 14px;
+    position: relative;
+    border-radius: 3px;
+    gap: 6px;
+    padding: 2px 4px;
+    height: 30px;
+    justify-content: left;
+    top: 20px;
+    align-items: center;
+}
+
+.iconeAtendente{
+    height: 18px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.card p {
+    position: relative;
+    top: 10px;
+    margin: 0;
+}
+
+.logo {
+    height: 68px;
+    margin-left: auto; 
+    position: relative;
+    left: 3vw;
+}
