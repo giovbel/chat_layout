@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: Omori1;
+    src: url(./font/Omori-fonts/OMORI_GAME2.ttf);
+}
+
+
 body {
     background-image: url(./img/background.jpg);
     font-family: 'Courier New', Courier, monospace;
@@ -46,6 +52,10 @@ body {
     border: 1px solid #000;
     position: relative;
     background-color: white;
+}
+
+.card:hover{
+    background: linear-gradient(0.180turn, #235f2b42, #a4f8af1f);
 }
 
 .card p {
