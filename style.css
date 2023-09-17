@@ -21,8 +21,8 @@ body {
 
 .card-container{
     align-items: center;
-    max-width: 800vw; /* Define a largura desejada */
-    max-height: 80vh; /* Define a altura máxima desejada */
+    max-width: 800vw; 
+    max-height: 80vh; 
     overflow-y: hidden;
     display: flex;
     padding: 30px;
@@ -65,9 +65,9 @@ body {
 }
 
 .card .imagem {
-    width: 80px; /* Largura desejada para todas as imagens */
-    height: 80px; /* Altura desejada para todas as imagens */
-    object-fit: cover; /* Mantém a proporção da imagem e cobre a área definida */
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
     border-radius: 50%;
     border: 1px solid #000;
 }
