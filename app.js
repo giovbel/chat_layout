@@ -2,54 +2,54 @@
 
 const contatos = [
     {
-        imagem: 'haerin.jpg',
-        nome: 'Haerin !',
-        notificacao: '4',
-        mensagem: 'I wanna tell you but im super shy !',
+        imagem: 'basil.jpg',
+        nome: 'Basil 🌻!',
+        notificacao: '1',
+        mensagem: 'Meus pensamentos te seguirão em seus sonhos',
         logo: 'logo-telegram.webp',
-        tempo: 'Há 30 minutos',
+        tempo: 'Há 3 anos',
         iconeAtendente: 'iconeAtendente.png',
-        atendente: 'Bunnies'
+        atendente: 'Manjeiricão'
     },
     {
-        imagem: 'danielle.jpg',
-        nome: 'Danielle !',
+        imagem: 'kel.jpg',
+        nome: 'Kel 🌵 !',
         notificacao: '2',
-        mensagem: '지원이가 여친이랑 헤어진 그날 !!',
+        mensagem: 'é uma pedra de estimação... Ele não é incrível?',
         logo: 'logo-instagram.webp',
-        tempo: 'Há 25 minutos',
+        tempo: 'Há 3 anos',
         iconeAtendente: 'iconeAtendente.png',
-        atendente: 'Minji'
+        atendente: 'Hector'
     },
     {
-        imagem: 'hanni.jpg',
-        nome: 'Hanni !',
+        imagem: 'aubrey.jpg',
+        nome: 'Aubrey 🌸!',
         notificacao: '3',
-        mensagem: 'Heard him say. . .',
+        mensagem: 'KEL ESTÁ SENDO MAL COMIGO DE NOVO!!',
         logo: 'logo-whatsapp.png',
-        tempo: 'Há 20 minutos',
+        tempo: 'Há 3 anos',
         iconeAtendente: 'iconeAtendente.png',
-        atendente: 'Haerin'
+        atendente: 'Kel'
     },
     {
-        imagem: 'minji.jpg',
-        nome: 'Minji !',
+        imagem: 'mari.jpg',
+        nome: 'Mari 💐 !',
         notificacao: '5',
-        mensagem: 'Hi, its me again, Im back. . .',
+        mensagem: 'Você deveria sorrir mais! Sempre gostei do seu sorriso',
         logo: 'logo-instagram.webp',
-        tempo: 'Há 18 minutos',
+        tempo: 'Há 3 anos',
         iconeAtendente: 'iconeAtendente.png',
-        atendente: 'ASAP'
+        atendente: 'Sunny'
     },
     {
-        imagem: 'hyein.jpg',
-        nome: 'Hyein !',
+        imagem: 'hero.jpg',
+        nome: 'Hero 🌹 !',
         notificacao: '6',
-        mensagem: 'I got no time to lose, 내 길었. . .',
+        mensagem: 'Ei, SUNNY... Posso cutucar seu cérebro por um minuto?',
         logo: 'logo-telegram.webp',
-        tempo: 'Há 15 minutos',
+        tempo: 'Há 3 anos',
         iconeAtendente: 'iconeAtendente.png',
-        atendente: 'Ditto'
+        atendente: 'Mari'
     }
 ]
 
